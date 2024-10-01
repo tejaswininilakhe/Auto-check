@@ -57,7 +57,7 @@
 #define ON  1
 #define OFF 0
 
-#define LED_ON  0
+#define LED_ON  0                   //LED Status
 #define LED_OFF 1
 
 #define MANUAL  0
