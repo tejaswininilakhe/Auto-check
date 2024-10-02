@@ -9,6 +9,7 @@ interrupt [TIM0_OVF] void timer0_ovf_isr(void)
 {
      //ucSec++;               
 }
+/************************************************************************/
 
 // Timer1 overflow interrupt service routine 100mSec
 interrupt [TIM1_OVF] void timer1_ovf_isr(void)
@@ -841,7 +842,8 @@ void check_inputs()
  EECR |= (1<<EEMWE);
  /* Start eeprom write by setting EEWE */
  EECR |= (1<<EEWE);
-}
+}
+
 unsigned char EEPROM_read(unsigned int uiAddress)
 {
  /* Wait for completion of previous write */
