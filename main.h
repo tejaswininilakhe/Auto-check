@@ -175,6 +175,6 @@ void auto_reverse_stop(void);
 void auto_forward_stop(void);
 void auto_left_request(void);
 void auto_right_request(void);
-
+/*****************************************************************/
 unsigned char EEPROM_read(unsigned int uiAddress);
 void EEPROM_write(unsigned int uiAddress, unsigned char ucData);
